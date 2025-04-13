@@ -1,0 +1,36 @@
+body {
+    background-image: url(https://i.simpalsmedia.com/point.md/news/thumbnails/large/4466238768c3f3e343e3eaa7fc2b98d7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 200vh;
+    margin: 0;
+}
+.container {
+    width: 1000px;
+    height: 1020px;
+    background-color: blanchedalmond;
+    padding: 50px;
+    opacity: 90%;
+    background: linear-gradient(to bottom, brown 0%, brown 12%, blanchedalmond 12%, blanchedalmond 88%, brown 88%, brown 100%);
+    margin: 5% auto;
+    margin-bottom: 5%;
+}
+.poza {
+    width: 200px;
+    height: 150px;
+}
+img {
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+img:hover {
+    transform: scale(0.95);
+}
+h2 {
+    color:beige
+}
+h3 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
